@@ -163,9 +163,6 @@ async def getMealPlanByIndex(index: int):
         )
 
 
-# Modified method -------------
-
-
 @app.post("/meals/byname")
 async def get_meal_by_name_api(mealName: MealName):
     try:
